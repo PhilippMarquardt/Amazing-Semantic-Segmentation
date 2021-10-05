@@ -6,10 +6,10 @@ The file defines the testing process.
 @Project: https://github.com/luyanger1799/amazing-semantic-segmentation
 
 """
-from utils.data_generator import ImageDataGenerator
-from utils.helpers import get_dataset_info, check_related_path
-from utils.losses import categorical_crossentropy_with_logits
-from utils.metrics import MeanIoU
+from amazingutils.data_generator import ImageDataGenerator
+from amazingutils.helpers import get_dataset_info, check_related_path
+from amazingutils.losses import categorical_crossentropy_with_logits
+from amazingutils.metrics import MeanIoU
 from builders import builder
 import tensorflow as tf
 import argparse

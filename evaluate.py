@@ -7,8 +7,8 @@ The file defines the evaluate process on target dataset.
 
 """
 from sklearn.metrics import multilabel_confusion_matrix
-from utils.helpers import *
-from utils.utils import load_image
+from amazingutils.helpers import *
+from amazingutils.utils import load_image
 import numpy as np
 import argparse
 import sys

@@ -6,14 +6,14 @@ The file defines the training process.
 @Project: https://github.com/luyanger1799/amazing-semantic-segmentation
 
 """
-from utils.data_generator import ImageDataGenerator
-from utils.helpers import get_dataset_info, check_related_path
-from utils.callbacks import LearningRateScheduler
-from utils.optimizers import *
-from utils.losses import *
-from utils.learning_rate import *
-from utils.metrics import MeanIoU
-from utils import utils
+from amazingutils.data_generator import ImageDataGenerator
+from amazingutils.helpers import get_dataset_info, check_related_path
+from amazingutils.callbacks import LearningRateScheduler
+from amazingutils.optimizers import *
+from amazingutils.losses import *
+from amazingutils.learning_rate import *
+from amazingutils.metrics import MeanIoU
+from amazingutils import utils
 from builders import builder
 import tensorflow as tf
 import argparse
