@@ -6,7 +6,7 @@ The implementation of Network based on Tensorflow.
 @Project: https://github.com/luyanger1799/amazing-semantic-segmentation
 
 """
-from base_models import *
+from amazingbase_models import *
 
 
 class Network(object):
